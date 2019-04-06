@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_addMemberButton"
+        android:icon="@drawable/ic_add_member"
+        android:title="Add Member"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_generateBill"
+        android:icon="@drawable/sample"
+        android:title="Generate Bill"
+        app:showAsAction="ifRoom"/>
+
+    <!--item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" /-->
+</menu>
